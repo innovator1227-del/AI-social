@@ -3,7 +3,6 @@ import cors from "cors";
 import connectDB from "./config/db.js";
 import "dotenv/config";
 import notificationRoutes from "./routes/notificationRoute.js";
-
 const app = express();
 
 app.use(cors());

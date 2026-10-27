@@ -1,6 +1,5 @@
 import express from "express";
 import Notification from "../models/Notification.js";
-
 const router = express.Router();
 
 // GET: Retrieve all notifications
